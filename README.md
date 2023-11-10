@@ -3,6 +3,13 @@ NLP and Intelligent search of the most relevant offers to an input query using L
 
 The project aims to create a master dataset from three CSV files using MySQL Workbench and then perform semantic search using Latent Semantic Indexing (LSI) along with various text analytics techniques. The final dataset consists of five columns: OFFER, RETAILER, BRAND, BRAND_BELONGS_TO_CATEGORY, and IS_CHILD_CATEGORY_TO. The goal is to simplify query building and improve search results by incorporating LSI.
 
+Download the Fetch_solution4.ipynb and FINAL.csv file and run the ipynb file. Both the csv and ipynb fies are to be in same folder.
+Run these modules
+pip install numpy
+pip install pandas
+pip install spacy
+python -m spacy download en_core_web_sm
+pip install gensim
 
 Acceptance Criteria
 If a user searches for a category (ex. diapers) the tool should return a list of offers that are relevant to that category.
